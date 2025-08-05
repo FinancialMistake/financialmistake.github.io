@@ -1,0 +1,137 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #F5F5F5;
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+
+header,
+main,
+nav {
+	background-color: white;
+	margin: 20px auto;
+	padding: 10px;
+	width: 1000px;
+}
+
+header {
+	border: 2px solid green;
+	color: green;
+	font-size: 3rem;
+	text-align: center;
+}
+
+nav {
+	
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li {
+	display: inline-block;
+	padding: 5px;
+}
+nav ul li a {
+	color: green;
+}
+nav ul li a:hover {
+	color: darkgreen;
+	text-decoration-thickness: 5px;
+	text-underline-offset: 3px;
+}
+
+img {
+	width: 500px;
+}
+
+#date {
+	border: 2px solid green;
+	font-size: 2rem;
+	line-height: 1.3;
+	padding: 5px;
+	text-align: center;
+}
+
+#date:hover {
+	border-radius: 50px;
+	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15) inset;
+}
+
+#timetables {
+	margin: 0;
+	padding: 10px 0;
+}
+
+#timetables li {
+	list-style: none;
+	padding: 10px 0;
+}
+
+#timetables a {
+	background-color: green;
+	border-radius: 5px;
+	color: white;
+	padding: 8px;
+	transition: background-color 0.2s, box-shadow 0.2s;
+}
+#timetables a:hover {
+	background-color: darkgreen;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#apply {
+	border: 2px solid green;
+	font-size: 2.5rem;
+	padding: 10px;
+}
+
+#apply a {
+	color: green;
+	transition: color 0.25s, outline 0.25s, border-radius 0.25s, box-shadow 0.25s, background-color 0.25s;
+}
+
+#apply a:hover {
+	border-radius: 50px;
+	box-shadow: 0 40px 80px rgba(0, 0, 0, 0.25);
+	color: coral;
+	outline: 10px solid coral;
+}
+
+#apply a:focus {
+	background-color: red;
+	box-shadow: 0 100px 200px rgba(0, 0, 0, 0.8);
+}
+
+.news {
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+	margin: 15px;
+	padding: 15px;
+}
+.news:hover {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.news-title {
+	font-size: 2rem;
+	font-weight: normal;
+	margin: 0;
+}
+
+.news-date {
+	color: #555;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-decoration: underline;
+	text-underline-offset: 6px;
+}
+
+.news-body {
+	line-height: 2;
+}
