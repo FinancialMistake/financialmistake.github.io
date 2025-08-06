@@ -135,3 +135,62 @@ img {
 .news-body {
 	line-height: 2;
 }
+
+.timetable-header {
+	border: 10px solid green;
+	font-size: 2rem;
+	padding: 10px;
+	text-align: center;
+}
+
+#ikea {
+	border: 10px solid #FECB00;
+	outline: 10px solid #005293;
+}
+
+.ikea-text {
+	color: #005293;
+}
+
+#timetable-operator {
+	font-family: serif;
+	font-size: 1.2rem;
+	font-style: italic;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 15px 0;
+}
+
+td, th, tr {
+	border: 1px solid #a2a9b1;
+}
+
+td, th {
+	padding: 8px;
+}
+
+th {
+	background-color: #eaecf0;
+	text-align: right;
+}
+
+td {
+	background-color: #f8f9fa;
+}
+
+.guides-title {
+	border-bottom: 1px solid #a2a9b1;
+	border-top: 1px solid #a2a9b1;
+	display: inline-block;
+	font-weight: normal;
+	margin: 10px 0;
+	padding: 10px 0;
+}
+
+.guides-return {
+	padding: 2px 0;
+	text-decoration: underline overline;
+	text-decoration-color: #a2a9b1;
+}
