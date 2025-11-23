@@ -51,7 +51,7 @@ a {
 .btn {
 	border: 1px solid #1D70B8;
 	display: inline-block;
-	padding: 3px;
+	padding: 5px;
 	text-decoration: none;
 }
 .btn:hover {
@@ -119,4 +119,27 @@ td {
 th {
 	font-weight: normal;
 	text-align: left;
+}
+
+#timetables li {
+	margin: 5px 0;
+}
+
+#guide {
+	margin-top: 40px;
+}
+
+#guides-title {
+	border-bottom: 1px solid #a2a9b1;
+	border-top: 1px solid #a2a9b1;
+	display: inline-block;
+	font-weight: normal;
+	margin: 10px 0;
+	padding: 10px 0;
+}
+
+#guides-return {
+	padding: 2px 0;
+	text-decoration: underline overline;
+	text-decoration-color: #a2a9b1;
 }
