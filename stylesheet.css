@@ -143,3 +143,37 @@ th {
 	text-decoration: underline overline;
 	text-decoration-color: #a2a9b1;
 }
+
+#mob {
+	display: none !important;
+}
+
+@media screen and (max-width:769px) {
+	
+	#body,
+	#header {
+		width: 768px;
+	}
+	#header ul li {
+		display: none;
+	}
+	#mob {
+		display: inline-block !important;
+	}
+}
+
+@media screen and (max-width:481px) {
+	
+	#body,
+	#header {
+		width: 480px;
+	}
+}
+
+@media screen and (max-width:381px) {
+	
+	#body,
+	#header {
+		width: 380px;
+	}
+}
